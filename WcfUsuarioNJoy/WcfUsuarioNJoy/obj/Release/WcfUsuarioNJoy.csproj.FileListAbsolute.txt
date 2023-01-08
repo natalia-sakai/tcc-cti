@@ -1,0 +1,17 @@
+C:\Users\ra1657088\Desktop\WcfUsuarioNJoy\WcfUsuarioNJoy\bin\WcfUsuarioNJoy.dll.config
+C:\Users\ra1657088\Desktop\WcfUsuarioNJoy\WcfUsuarioNJoy\bin\WcfUsuarioNJoy.dll
+C:\Users\ra1657088\Desktop\WcfUsuarioNJoy\WcfUsuarioNJoy\bin\WcfUsuarioNJoy.pdb
+C:\Users\ra1657088\Desktop\WcfUsuarioNJoy\WcfUsuarioNJoy\bin\EntityFramework.dll
+C:\Users\ra1657088\Desktop\WcfUsuarioNJoy\WcfUsuarioNJoy\bin\EntityFramework.SqlServer.dll
+C:\Users\ra1657088\Desktop\WcfUsuarioNJoy\WcfUsuarioNJoy\bin\Google.Protobuf.dll
+C:\Users\ra1657088\Desktop\WcfUsuarioNJoy\WcfUsuarioNJoy\bin\MySql.Data.dll
+C:\Users\ra1657088\Desktop\WcfUsuarioNJoy\WcfUsuarioNJoy\bin\MySql.Data.Entity.EF6.dll
+C:\Users\ra1657088\Desktop\WcfUsuarioNJoy\WcfUsuarioNJoy\bin\EntityFramework.xml
+C:\Users\ra1657088\Desktop\WcfUsuarioNJoy\WcfUsuarioNJoy\bin\EntityFramework.SqlServer.xml
+C:\Users\ra1657088\Desktop\WcfUsuarioNJoy\WcfUsuarioNJoy\bin\Google.Protobuf.xml
+C:\Users\ra1657088\Desktop\WcfUsuarioNJoy\WcfUsuarioNJoy\bin\MySql.Data.xml
+C:\Users\ra1657088\Desktop\WcfUsuarioNJoy\WcfUsuarioNJoy\obj\Release\WcfUsuarioNJoy.csprojAssemblyReference.cache
+C:\Users\ra1657088\Desktop\WcfUsuarioNJoy\WcfUsuarioNJoy\obj\Release\WcfUsuarioNJoy.csproj.CoreCompileInputs.cache
+C:\Users\ra1657088\Desktop\WcfUsuarioNJoy\WcfUsuarioNJoy\obj\Release\WcfUsuarioNJoy.csproj.CopyComplete
+C:\Users\ra1657088\Desktop\WcfUsuarioNJoy\WcfUsuarioNJoy\obj\Release\WcfUsuarioNJoy.dll
+C:\Users\ra1657088\Desktop\WcfUsuarioNJoy\WcfUsuarioNJoy\obj\Release\WcfUsuarioNJoy.pdb
