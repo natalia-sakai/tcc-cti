@@ -1,0 +1,87 @@
+body {
+      background-image: linear-gradient(to right, white, #30b225);
+}
+
+#main
+{
+	position:absolute;
+	width:480px;
+	height:420px;
+	top: 67px; 
+	left:402.25px;
+	background:white;
+	float:left;
+	
+}
+
+
+#total{
+
+	border-radius:45px;
+	width:480px;
+	height:420px;
+	background-color: white;
+	float:left;
+}
+
+#topo
+{
+		width:480px;
+		height: 170px;
+		background-color:#6adb60;
+}
+
+/*#7eed74*/
+
+#txt
+{
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		font-size: 25px;
+		letter-spacing: 1px;
+		word-spacing: -2px;
+		color: white;
+	
+}
+
+#txt2
+{
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		font-size: 25px;
+		letter-spacing: 1px;
+		word-spacing: -2px;
+		color: #000000;
+		margin-left:87px;
+		
+	
+}
+
+button
+{
+		width:480px;
+		height: 70px;
+		background-color:#6adb60;
+		border:0px;
+        
+		 
+}
+button:hover
+{
+    background-color:#30b225;
+}
+#insere_codigo
+{
+		width: 400px;
+		height: 50px;
+		margin-top:10px;
+        
+			
+
+}
+input[type=text] {
+    font-size: 20px;
+    width: 400px;
+    height:40px;
+    border-radius: 4px;
+	margin-left:40px;
+	margin-top:10px;
+}

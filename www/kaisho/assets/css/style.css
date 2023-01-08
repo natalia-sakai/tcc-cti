@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body, html {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	font-family: 'Roboto', sans-serif;
+}
+
+::placeholder {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.header {
+	min-width: 100vw;
+	height: 8px;
+	background-color: #cd060b;
+	border: 2px solid #4e0403;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.title {
+	text-transform: uppercase;
+	font-size: 50px;
+	color: white;
+}
+
+.container {
+	min-height: auto;
+	min-width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #1b1b1b;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+}
+
+.content > .column > .row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#sr_kaisho {
+	margin-left: -140px;
+}
+
+.footer {
+	min-width: 100vw;
+	margin-top: -17px;
+}
+
+.footer1 {
+	min-width: 100vw;
+	height: 50px;
+	background-color: #800001;
+	border: 2px solid #610000;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.footer1 img {
+	margin-right: -320px;
+	margin-top: 10px;
+}
+
+.footer2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #cd060b;
+	border: 10px solid #800001;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	min-width: 100vw;
+	height: 200px;
+}
+
+.footer2 > * {
+	margin: 0 40px;
+}
+
+input[type="text"], input[type="email"] {
+	height: 35px;
+	width: 290px;
+	font-size: 16px;
+	display: block;
+
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	margin: 10px 0;
+	padding-left: 10px;
+}
+
+input[type="email"] {
+	margin-bottom: 0px;
+}
+
+input[name="phone"], input[name="city"] {
+	display: inline;
+	width: 130px;
+}
+
+input[name="city"] {
+	margin-left: 12px;
+}
+
+input[type="submit"] {
+	border: none;
+	text-transform: uppercase;
+	display: block;
+	background-color: #fff;
+	padding: 5px 20px;
+}
+
+input[type="submit"]:hover {
+	cursor: pointer;
+	background-color: lightgray;
+}

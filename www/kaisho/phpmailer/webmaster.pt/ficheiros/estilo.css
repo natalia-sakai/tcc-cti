@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+label {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	margin-left:15px;
+	color:#000000;
+}
+
+#empresa, #pessoa_contato, #telefone, #telefone_alternativo, #email, #cep, #cnpj {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	color:#333333;
+	width:170px;
+	margin:5px;
+}
+
+select {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	color:#333333;
+	width:175px;
+	margin:5px;
+}
+
+textarea {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	color:#333333;
+	width:530px;
+	margin:5px;
+}
+
+#titulo {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:1.4em;
+	font-weight:bold;
+	color:#000000;
+	text-align:center;
+}
+
+#botao {
+	margin-right:25px;
+}

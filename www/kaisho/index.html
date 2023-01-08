@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="assets/img/icone.ico">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>Sr Kaisho</title>
+	
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<?php
+		if(isset($_GET['enviado'])){
+		?>
+			<div class="alert alert-success text-center" id="mensagem" style="position: fixed; margin-top: 5%; width: 90%;">
+				<strong>Email enviado com sucesso!</strong>
+				<div class="bg-red">
+					<span class="text-white" onclick="$('#mensagem').fadeOut()">x</span>
+					
+				</div>
+			</div>
+		<?php
+			}
+		?>
+	<div class="header"></div>
+	<div class="container">
+		
+		<div class="content">
+			<div class="column">
+				<div class="row">
+					<div>
+						<img style="margin-left: -25px" src="assets/img/sr_kaisho_texto.png" alt="sr_kaisho_texto" width="200">
+						<hr style="margin-top: -20px; margin-left: 0px; width: calc(100% - 18px)">
+					</div>
+					<img src="assets/img/circulo.png" alt="circulo" width="200">
+				</div>
+				<div class="title"><span>Seja um<br><b>franqueado!</b></span></div>
+				<form action="enviar_email.php" method="post">
+				<input type="text" name="name" placeholder="nome:" title="Insira apenas letras e espaço" pattern="[a-Z ]" required>
+					<input type="email" name="email" placeholder="e-mail:" title="Insira um email válido" required>
+					<input type="text" name="phone" placeholder="tel:" required>
+					<input type="text" name="city" placeholder="cidade:" pattern="[a-Z]" required>
+					<input type="submit" value="enviar">
+				</form>
+			</div>
+			<div class="column">
+				<img id="sr_kaisho" src="assets/img/sr_kaisho.png" alt="sr_kaisho" width="600">
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer1">
+			<img src="assets/img/uma_empresa.png" alt="uma_empresa_do_grupo" height="50px">
+		</div>
+		<div class="footer2">
+			<div style="display: flex; flex-direction: row; color: white">
+				<div style="margin-top: 5px">Desenvolvido por &nbsp;&nbsp;</div>
+				<div><img src="assets/img/think.png" alt="think" height="50px"></div>
+			</div>
+			<div><img src="assets/img/logo.png" alt="logo" height="100px"></div>
+		</div>
+	</div>
+	
+	
+</body>
+</html>
